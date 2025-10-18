@@ -5,7 +5,7 @@ from datetime import datetime
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="sumit@11",  # Replace with your MySQL password
+    password="sumit@11",  
     database="hotel_management"
 )
 cursor = conn.cursor()
@@ -169,3 +169,4 @@ main_menu()
 # Close the connection
 cursor.close()
 conn.close()
+
